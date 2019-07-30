@@ -23,8 +23,6 @@
         .css('-ms-transition', + settings.transitionTime + 'ms ease-in')
         .css('-o-transition', + settings.transitionTime + 'ms ease-in')
         .css('transition', + settings.transitionTime + 'ms ease-in')
-
-    // if only one image, set as static background
     if (settings.static) {
       $(this)
           .css('background-image', 'url(' + settings.images[settings.current] + ')');
