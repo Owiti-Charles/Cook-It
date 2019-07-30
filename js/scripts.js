@@ -6,5 +6,5 @@ $(function () {
         transitionTime: 2000,
         wait: 5000
     });
-})
-new WOW().init();
+});
+// new WOW().init();
