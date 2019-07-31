@@ -193,16 +193,19 @@ body {
   display: none;
 }
 #exit{
-  margin-left: 92%;
+  /* margin-left: 95%; */
+  float: right;
   border-radius: 50%;
-  height: 60px;
+  height: 30px;
+  width: 30px;
 }
 
 .about {
   font-family: Verdana, sans-serif;
   font-size: 22px;
   color: #fff;
-  margin: 2%;
+  padding-bottom: 3%;
+  margin: 0 2% 0 0;
   background-color: #78909c;
   text-align: center;
 }
