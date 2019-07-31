@@ -1,6 +1,7 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
+
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,48 +13,96 @@
   <link rel="stylesheet" href="css/styles.css">
   <title>Cook It</title>
 </head>
+
 <body>
-<section class="container">
+  <section class="container">
     <div class="fullBackground">
-        <div class="overlay">
-            <div class="nav">
-              <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-                <div class="container">
-                  <a class="navbar-brand" id="logo" href="#"><strong>Cook-IT</strong></a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
-                    <ul class="navbar-nav mr-auto">
-                      <li class="nav-item ">
-                        <a class="nav-link" href="#">About Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Recipes</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contacts Us</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
+      <div class="overlay">
+        <div class="nav">
+          <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <div class="container">
+              <a class="navbar-brand" id="logo" href="#"><strong>Cook-IT</strong></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#about">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Recipes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <h1 class="text-white site-name"><span id="site-name">Cook</span>  it</h1>
-            <p class="text-white slogan">Our savours to yours.</p> 
+          </nav>
         </div>
-        <section>
-            <!--About Us page-->
-          </section>
-          
-          <section>
-            <!--Recipes-->
-          </section>
-          <section>
-            <!--Contacts-->
-          </section>
+        <h1 class="text-white site-name"><span id="site-name">Cook</span> it</h1>
+        <p class="text-white slogan">Our savours to yours.</p>
+      </div>
+      <section>
+        <div class="about" id="about">
+          <div class="container">
+            <h1 class="about-title">About Us</h1>
+            <div class="para-w3-agileits">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer<span id="dots">...</span><span
+                  id="more">citation ullamco laboris nisi ut aliquip ex
+                  ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                  fugiat
+                  nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit
+                  anim id est laborum.<br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et
+                  dolore magna aliqua. Vel pretium lectus quam id leo in vitae turpis. Sit amet nisl suscipit adipiscing
+                  bibendum. Metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Praesent tristique magna
+                  sit
+                  amet purus gravida quis blandit. Diam vel quam elementum pulvinar etiam. In nibh mauris cursus mattis
+                  molestie a iaculis at erat.<br><br> Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.
+                  Accumsan tortor
+                  posuere ac ut consequat semper viverra. Nunc scelerisque viverra mauris in aliquam sem fringilla.
+                  Neque
+                  egestas congue quisque egestas. Massa ultricies mi quis hendrerit dolor magna eget. A arcu cursus
+                  vitae
+                  congue mauris. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Aenean euismod
+                  elementum nisi quis eleifend quam adipiscing vitae proin. At quis risus sed vulputate odio ut enim
+                  blandit
+                  volutpat.</span></p>
+
+              <button onclick="myFunction()" id="myBtn" class="btn btn-success">READ MORE</button>
+              <br><br>
+            </div>
+
+            <div class="about-main">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 about-left">
+                <img src="images/slider1.jpg" alt="About us image" id="sliderimg">
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 about-right">
+                <h3 class="subheading-w3-agile">The perfect place to enjoy life and food.</h3>
+                <p class="para-w3-agileits">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis
+                  tristique est, et egestas odio, sed interdum risus.</p>
+              </div>
+            </div>
+            <br><br>
+          </div>
+        </div>
+        <!--About Us page-->
+      </section>
+
+      <section>
+        <!--Recipes-->
+      </section>
+      <section>
+        <!--Contacts-->
+      </section>
     </div>
-</section>
+  </section>
 </body>
 <script src="js/jquery.js"></script>
 <script src="js/scripts.js"></script>
@@ -61,4 +110,7 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/mdb.min.js"></script>
 <script src="js/popper.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+
 </html>
