@@ -7,4 +7,10 @@ $(function () {
         wait: 5000
     });
 });
-// new WOW().init();
+$(".lunch").hide();
+$(".supper").hide();
+$(".drinks").hide();
+$(document).ready(function(){
+
+});
+
