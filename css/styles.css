@@ -77,4 +77,17 @@ body {
 }
 #aboutus{
   background-color: black;
+    height: 900px;
+}
+.counter{
+  display: inline-block;
+  width: 150px;
+  height:50px;
+  font-size: 24px;
+  background-color: transparent;
+  color: red;
+}
+.counters span{
+  margin-left: 70%;
+
 }
