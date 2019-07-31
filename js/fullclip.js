@@ -12,11 +12,14 @@
     // preload images
     var i, end;
     for (i = 0, end = settings.images.length; i < end; ++i) {
+
       new Image().src = settings.images[i];
+
     }
 
     // sort out the transitions + specify vendor prefixes
     $('.fullBackground')
+
         .css('background-image', 'url(' + settings.images[settings.current] + ')')
         .css('-webkit-transition', + settings.transitionTime + 's ease-in')
         .css('-moz-transition', + settings.transitionTime + 'ms ease-in')
@@ -36,3 +39,4 @@
       setTimeout(update, settings.wait);
     }());
   }}(jQuery));
+
