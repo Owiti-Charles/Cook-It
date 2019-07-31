@@ -135,3 +135,18 @@ body {
 .lunch{
   margin-top: 0px;
 }
+.recipe-overlay{
+  background-color: rgba(20, 20, 20, 0.96);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  left:0px;
+  margin-top: -10%;
+  display: none;
+}
+#exit{
+  margin-left: 92%;
+  border-radius: 50%;
+  height: 60px;
+}
