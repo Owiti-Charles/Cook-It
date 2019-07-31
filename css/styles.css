@@ -75,3 +75,15 @@ body {
   font-family: 'Architects Daughter', cursive;
   font-size: 25px;
 }
+#recipes{
+  color: black;
+}
+#recipe h2{
+  padding-top: 30px;
+  text-align: center;
+  color: orange;
+}
+#recipe{
+  padding-top: 30px;
+}
+
