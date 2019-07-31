@@ -104,6 +104,40 @@ body {
   font-size: 25px;
 }
 
+#aboutus{
+  background-color: black;
+    height: 900px;
+}
+.counter{
+  display: inline-block;
+  width: 150px;
+  height:50px;
+  font-size: 24px;
+  background-color: transparent;
+  color: red;
+}
+.counters span{
+  margin-left: 70%;
+
+}
+.card{
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  background-color: orange;
+  border: solid 5px #3be8b0;
+   height: 680px;
+  width:700px;
+}
+.con{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: start;
+}.con p {
+  margin-right: 70px;
+}
+
 .tab-text1:hover{
   background-color: #ff5858;
   color: black;
@@ -221,4 +255,5 @@ padding: 0 0 200px 0 ;
 .btn{
   border-radius: 10px;
 }
+
 

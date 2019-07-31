@@ -7,6 +7,14 @@ $(function () {
         wait: 5000
     });
 });
+
+$(document).ready(function($) {
+  $('.counter').counterUp({
+      delay: 10,
+      time: 1000
+  });
+});
+
 $(".lunch").hide();
 $(".supper").hide();
 $(".drinks").hide();
@@ -60,4 +68,5 @@ function myFunction() {
         moreText.style.display = "inline";
     }
 }
+
 
