@@ -91,3 +91,12 @@ body {
   margin-left: 70%;
 
 }
+.card{
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  background-color: orange;
+  border: solid 5px #3be8b0;
+   height: 680px;
+  width:700px;
+}
