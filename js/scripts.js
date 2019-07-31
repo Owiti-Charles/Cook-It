@@ -7,4 +7,10 @@ $(function () {
         wait: 5000
     });
 });
+$(document).ready(function($) {
+  $('.counter').counterUp({
+      delay: 10,
+      time: 1000
+  });
+});
 // new WOW().init();
