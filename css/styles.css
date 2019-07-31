@@ -20,7 +20,7 @@ header,
   .pushhello{
     margin-top: 200%;
     color: red;
-
+  }
   .about-right {
     margin-top: -45%;
     margin-left: -300px;
@@ -87,12 +87,14 @@ body {
     overflow-x: hidden;
     color: #ffffff;
 }
+.card{
+  border: none;
+}
 
 .push-down{
   padding-top: 25%;
 }
 .site-name {
-  margin-top: ;
   margin-left: 10%;
 }
 #site-name{
@@ -120,7 +122,7 @@ body {
   margin-left: 70%;
 
 }
-.card{
+.cardf{
   overflow-x: hidden;
   overflow-y: hidden;
 
@@ -247,10 +249,10 @@ img {
   height: auto;
 }
 .subheading-w3-agile{
-padding: 200px 0 0 0;
+padding: 60px 0 0 0;
 } 
 .para-w3-agileits{
-padding: 0 0 200px 0 ;
+padding: 0 0 100px 0 ;
 }
 .btn{
   border-radius: 10px;
