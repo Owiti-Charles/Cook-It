@@ -114,10 +114,17 @@ body {
   height: 60px;
   color: black;
 }
-.recipes{
-  padding-bottom: 50px;
+
+#recipe h2{
+  padding-top: 30px;
+  text-align: center;
+  color: orange;
+}
+#recipe{
+  padding-top: 30px;
 }
 #recipes,.tab-text1,.tab-text2,.tab-text3,.tab-text4{
   color: #000000;
   margin: 0;
 }
+
