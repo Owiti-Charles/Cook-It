@@ -16,9 +16,19 @@ header,
     padding-top: 160px;
     margin-left: 10%;
   }
+
   .pushhello{
     margin-top: 200%;
     color: red;
+
+  .about-right {
+    margin-top: -45%;
+    margin-left: -300px;
+    margin-left: 200px;
+    position: relative;
+    border: 5px solid rgb(59, 232, 176);
+    float: right;
+    z-index: 4;
   }
 }
 
@@ -53,7 +63,7 @@ body {
 }
 .overlay{
     height: inherit;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.2);
 }
 
 .fullBackground {
@@ -93,6 +103,7 @@ body {
   font-family: 'Architects Daughter', cursive;
   font-size: 25px;
 }
+
 .tab-text1:hover{
   background-color: #ff5858;
   color: black;
@@ -150,3 +161,64 @@ body {
   border-radius: 50%;
   height: 60px;
 }
+
+.about {
+  font-family: Verdana, sans-serif;
+  font-size: 22px;
+  color: #fff;
+  margin: 2%;
+  background-color: #78909c;
+  text-align: center;
+}
+.about p {
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+#more {
+  display: none;
+}
+.about-left {
+  background-repeat: no-repeat 0px 0px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 350px;
+  position: relative;
+  left: 0px;
+  top: 20%;
+  z-index: 9;
+}
+
+#myBtn{
+  z-index: 1;
+}
+.about-right {
+  margin-top: -45%;
+  margin-right:4%;
+  margin-left: 200px;
+  position: relative;
+  border: 5px solid rgb(59, 232, 176);
+  float: right;
+  z-index: 4;
+}
+.about-title {
+  padding-top: 6%;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.subheading-w3-agile{
+padding: 200px 0 0 0;
+} 
+.para-w3-agileits{
+padding: 0 0 200px 0 ;
+}
+.btn{
+  border-radius: 10px;
+}
+
