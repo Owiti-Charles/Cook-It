@@ -100,3 +100,11 @@ body {
    height: 680px;
   width:700px;
 }
+.con{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: start;
+}.con p {
+  margin-right: 70px;
+}
