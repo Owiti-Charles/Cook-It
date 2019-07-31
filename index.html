@@ -1,6 +1,7 @@
 <!Doctype html>
 <html>
-  <head>
+
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,53 +13,117 @@
   <link rel="stylesheet" href="css/styles.css">
   <title>Cook It</title>
 </head>
+
 <body>
-<section class="container">
+  <section class="container">
     <div class="fullBackground">
-        <div class="overlay">
-            <div class="nav">
-              <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-                <div class="container">
-                  <a class="navbar-brand" id="logo" href="#"><strong>Cook-IT</strong></a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
-                    <ul class="navbar-nav mr-auto">
-                      <li class="nav-item ">
-                        <a class="nav-link" href="#">About Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Recipes</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
+      <div class="overlay">
+        <div class="nav">
+          <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <div class="container">
+              <a class="navbar-brand" id="logo" href="#"><strong>Cook-IT</strong></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Recipes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <h1 class="text-white site-name"><span id="site-name">Cook</span>  it</h1>
-            <p class="text-white slogan">Our savours to yours.</p> 
+          </nav>
         </div>
-        <section>
-            <!--About Us page-->
-          </section>
-          
-          <section>
-            <!--Recipes-->
-          </section>
-          <section>
-            <!--Contacts-->
-          </section>
+        <h1 class="text-white site-name"><span id="site-name">Cook</span>it</h1>
+        <p class="text-white slogan">Our savours to yours.</p>
+      </div>
+      <section>
+        <!--About Us page-->
+
+      </section>
+
+      <section>
+        <!--Recipes-->
+
+      </section>
+      <section>
+        <!--Contacts-->
+        <!-- <div id="contact">
+            <h1>CONTACT US</h1>
+          <input type="text" id="email"  placeholder="Enter your email...">
+          <button id="subscribe" class="bg-success">SUBSCRIBE</button>
+          </div> -->
+        <section class="mail" id="contact">
+          <div class="container pt-3">
+            <div class="middle-heading1 text-center mb-5">
+              <h3>contact</h3>
+            </div>
+            <div class="row form">
+              <div class="col-lg-8  cont">
+                <form action="#" method="post">
+                  <div class="row">
+                    <div class="col-md-6 wthree_contact_left_grid pr-md-0">
+                      <div class="form-group">
+                        <input type="text" name="name" class="mb-4 form-control" placeholder="Name" required="">
+                      </div>
+                      <div class="form-group">
+                        <input type="email" name="email" class="mb-4 form-control" placeholder="Email" required="">
+                      </div>
+                    </div>
+                    <div class="col-md-6 wthree_contact_left_grid">
+                      <div class="form-group">
+                        <input type="text" name="phone number" class="mb-4 form-control" placeholder="Phone Number"
+                          required="">
+                      </div>
+                      <div class="form-group">
+                        <input type="text" name="subject" class="mb-4 form-control" placeholder="Subject" required="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <textarea name="message" placeholder="Message" class="form-control" required=""></textarea>
+                  </div>
+                  <div class="submit-buttons">
+                    <input type="submit" value="Submit">
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-4 contact-info">
+                <div class="contact-info1">
+                  <h4 class="mb-4">Address Information</h4>
+                  <p><span class="fa mr-3 fa-map-marker"></span><span>Ngong Lane Plaza</span></p>
+                  <p class="phone "><span class="fa mr-3 fa-phone"></span>Phone : +254 2220564 </p>
+                  <p class="phone "><span class="fa mr-3 fa-phone"></span>Call us at +254 6889344 </p>
+                  <p><span class="fa mr-3 fa-envelope"></span>Email : <a
+                      href="mailto:info@cookitmail.com">info@cookitmail.com</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
     </div>
-</section>
+  </section>
+  <footer>
+    <div class="footer">
+      <p>&copy;Cook-IT 2019</p>
+    </div>
+  </footer>
 </body>
+
 <script src="js/jquery.js"></script>
 <script src="js/scripts.js"></script>
 <script src="js/fullclip.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/mdb.min.js"></script>
 <script src="js/popper.min.js"></script>
+
 </html>
