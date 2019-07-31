@@ -1,4 +1,3 @@
-
 html,
 body,
 header,
@@ -81,11 +80,6 @@ body {
 
 .push-down{
   padding-top: 25%;
-  /* background-color: white; */
-}
-.pushhello{
-  margin-top: 50%;
-  color: red;
 }
 .site-name {
   margin-top: ;
@@ -98,4 +92,32 @@ body {
   margin-left: 10%;
   font-family: 'Architects Daughter', cursive;
   font-size: 25px;
+}
+.tab-text1:hover{
+  background-color: #ff5858;
+  height: 60px;
+  color: black;
+}
+
+.tab-text2:hover{
+  background-color: #ff5858;
+  height: 60px;
+  color: black;
+}
+.tab-text3:hover{
+  background-color: #ff5858;
+  height: 60px;
+  color: black;
+}
+.tab-text4:hover{
+  background-color: #ff5858;
+  height: 60px;
+  color: black;
+}
+.recipes{
+  padding-bottom: 50px;
+}
+#recipes,.tab-text1,.tab-text2,.tab-text3,.tab-text4{
+  color: #000000;
+  margin: 0;
 }
