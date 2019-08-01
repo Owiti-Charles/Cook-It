@@ -1,21 +1,9 @@
-
-* {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    padding: 0;
-    margin: 0;
-}
-.card-title{
-    color: black;
-}
-
 html,
 body,
 header,
 .view {
     height: 100%;
 }
-
 @media (max-width: 740px) {
     html,
     body,
@@ -23,17 +11,14 @@ header,
     .view {
         height: 100vh;
     }
-
     .site-name {
         padding-top: 160px;
         margin-left: 10%;
     }
-
-    .pushhello {
+    .pushhello{
         margin-top: 200%;
         color: red;
     }
-
     .about-right {
         margin-top: -45%;
         margin-left: -300px;
@@ -44,37 +29,37 @@ header,
         z-index: 4;
     }
 }
-
 .top-nav-collapse {
     background-color: #78909c !important;
 }
-
 .navbar:not(.top-nav-collapse) {
     background: transparent !important;
 }
-
 @media (max-width: 991px) {
     .navbar:not(.top-nav-collapse) {
         background: #78909c !important;
     }
 }
-
-#logo {
+#logo{
     padding-right: 65%;
+}
+*{
+    scroll-behavior: smooth;
 }
 body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     color: #fff;
-    overflow-x: hidden;
 }
-
-.overlay {
+*{
+    padding: 0;
+    margin: 0;
+}
+.overlay{
     height: inherit;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0,0,0,0.2);
 }
-
 .fullBackground {
     background-position: center center;
     background-attachment: fixed;
@@ -85,178 +70,193 @@ body {
     width: 100%;
     height: 100%;
 }
-
-.push-down {
-    padding-top: 25%;
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: #ffffff;
 }
 .card{
-  border: none;
+    border: none;
 }
-
+.push-down{
+    padding-top: 25%;
+}
 .site-name {
-  margin-left: 10%;
+    margin-left: 10%;
 }
 #site-name{
-  background-color: orange;
-}
-.slogan{
-  margin-left: 10%;
-  font-family: 'Architects Daughter', cursive;
-  font-size: 25px;
-}
-
-#site-name {
     background-color: orange;
 }
-
-.slogan {
+.slogan{
     margin-left: 10%;
     font-family: 'Architects Daughter', cursive;
     font-size: 25px;
 }
-
-#aboutus {
+#aboutus{
     background-color: black;
+    height: 900px;
 }
-
-.counter {
+.counter{
     display: inline-block;
     width: 150px;
+    height:50px;
     font-size: 24px;
     background-color: transparent;
     color: red;
 }
-
-.con {
+.counters span{
+    margin-left: 70%;
+}
+.cardf{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: orange;
+    border: solid 5px #3be8b0;
+    height: 680px;
+    width:700px;
+}
+.con{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: start;
-}
-
-.tab-text1:hover {
+}.con p {
+     margin-right: 70px;
+ }
+.tab-text1:hover{
     background-color: #ff5858;
     color: black;
 }
-
-.tab-text2:hover {
+.tab-text2:hover{
     background-color: #ff5858;
     color: black;
 }
-
-.tab-text3:hover {
+.tab-text3:hover{
     background-color: #ff5858;
     color: black;
 }
-
-.tab-text4:hover {
+.tab-text4:hover{
     background-color: #ff5858;
     color: black;
 }
-
-#recipe h2 {
+#recipe h2{
     padding-top: 30px;
     padding-bottom: 40px;
     font-size: 40px;
     text-align: center;
     color: orange;
 }
-
-#recipe {
+#recipe{
     padding-top: 30px;
 }
-
-.recipes, .tab-text1, .tab-text2, .tab-text3, .tab-text4 {
+#recipes,.tab-text1,.tab-text2,.tab-text3,.tab-text4{
     color: #000000;
     height: 60px;
     margin: 0;
 }
-
-.row-top {
+.row-top{
     margin-top: 20px;
 }
-
-.community-text {
+.community-text{
     margin: 20px 0 20px 0;
 }
+.lunch{
+    margin-top: 0px;
+}
 .ingredients{
-  text-align: left;
+    text-align: left;
 }
 .recipe-overlay{
-  background-color: rgba(20, 20, 20, 0.96);
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: 2;
-  left:0px;
-  padding-left: 10%;
-  padding-top: 2%;
-  margin-top: -10%;
-  display: none;
+    background-color: rgba(20, 20, 20, 0.96);
+    /* height: 100%; */
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    left:0px;
+    padding-left: 10%;
+    padding-top: 2%;
+    margin-top: -10%;
+    display: none;
+    
 }
-#exit{
-  /* margin-left: 95%; */
-  float: right;
-  border-radius: 50%;
-  height: 30px;
-  width: 30px;
+.exit{
+    /* margin-left: 95%; */
+    float: right;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
 }
-
+.col-sm-8 h2{
+  padding:10px;
+  font-size: 18px;
+}
 .about {
-  font-family: Verdana, sans-serif;
-  font-size: 22px;
-  color: #fff;
-  padding-bottom: 3%;
-  margin: 0 2% 0 0;
-  background-color: #78909c;
-  text-align: center;
+    font-family: Verdana, sans-serif;
+    font-size: 22px;
+    color: #fff;
+    padding-bottom: 3%;
+    margin: 0 2% 0 0;
+    background-color: #78909c;
+    text-align: center;
 }
-
 .about p {
     font-family: Verdana, sans-serif;
     font-size: 18px;
     font-weight: bold;
     color: #fff;
 }
-
 #more {
     display: none;
 }
-
 .about-left {
-    background-repeat: no-repeat;
+    background-repeat: no-repeat 0px 0px;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 350px;
     position: relative;
+    left: 0px;
+    top: 20%;
+    z-index: 9;
+}
+#myBtn{
     z-index: 1;
 }
-
 .about-right {
-    margin-top: -43%;
-    margin-right: 4%;
+    margin-top: -45%;
+    margin-right:4%;
+    margin-left: 200px;
     position: relative;
     border: 5px solid rgb(59, 232, 176);
     float: right;
+    z-index: 4;
 }
-
 .about-title {
     padding-top: 6%;
 }
-
 img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 .subheading-w3-agile{
-padding: 60px 0 0 0;
-} 
-.para-w3-agileits{
-padding: 0 0 100px 0 ;
+    padding: 60px 0 0 0;
 }
-.btn {
+.para-w3-agileits{
+    padding: 0 0 100px 0 ;
+}
+.btn{
     border-radius: 10px;
 }
 .individual-recipe{
-  padding-top: 6%;
+    padding-top: 6%;
 }
-
-
+#viazikarai-recipe{
+  display: none;
+}
