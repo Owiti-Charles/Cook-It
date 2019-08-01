@@ -19,26 +19,26 @@ $(".lunch").hide();
 $(".supper").hide();
 $(".drinks").hide();
 $(document).ready(function(){
-  $("#lunchit").click(function(event){
+  $("#lunchit").click(function(){
     $(".drinks").hide();   
     $(".lunch").fadeTo('slow',1).slideDown('slow');
     $(".breakfast").hide();
     $(".supper").hide();
   });
 
-  $("#break").click(function(event){  
+  $("#break").click(function(){
     $(".lunch").fadeTo('slow',0).hide();
     $(".breakfast").fadeTo('slow',1).slideDown('slow');
     $(".supper").hide();
     $(".drinks").hide(); 
   });
-  $("#supperit").click(function(event){
+  $("#supperit").click(function(){
     $(".breakfast").hide(); 
     $(".drinks").hide();  
     $(".lunch").fadeTo('slow',0).hide();
     $(".supper").fadeTo('slow',1).slideDown('slow');
   });
-  $("#drinkit").click(function(event){
+  $("#drinkit").click(function(){
     $(".breakfast").hide();   
     $(".lunch").hide();
     $(".supper").hide();
