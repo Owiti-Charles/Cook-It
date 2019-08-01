@@ -40,10 +40,28 @@ $(document).ready(function(){
         $(".drinks").fadeTo('slow',1).slideDown('slow');
     });
     $("#food1").click(function(){
-        $(".recipe-overlay").slideDown(1000);
+        $("#mahamri").slideDown(1000);
     });
-    $("#exit").click(function(){
-        $(".recipe-overlay").slideUp(1000);
+    $(".exit").click(function(){
+        $("#mahamri").slideUp(1000);
+    });
+    $("#viazikarai").click(function(){
+      $("#viazikarai-recipe").slideDown(1000);
+    });
+    $(".exit").click(function(){
+      $("#viazikarai-recipe").slideUp(1000);
+    });
+    $("#mkatewasinia").click(function(){
+      $("#mkatewasinia-recipe").slideDown(1000);
+    });
+    $(".exit").click(function(){
+      $("#mkatewasinia-recipe").slideUp(1000);
+    });
+    $("#vitumbua").click(function(){
+      $("#vitumbua-recipe").slideDown(1000);
+    });
+    $(".exit").click(function(){
+      $("#vitumbua-recipe").slideUp(1000);
     });
 });
 function myFunction() {
