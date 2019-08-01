@@ -8,8 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap" rel="stylesheet">
     <link rel="icon" href="images/cookit.ico" type="image/x-icon">
     <script src="js/jquery-3.3.1.min.js"></script>
-    <link rel="stylesheet" href="css/mdb.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="css/mdb.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Cook It</title>
@@ -38,7 +38,7 @@
                                     <a class="nav-link" href="#recipe">Recipes</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#contact">Contacts Us</a>
+                                    <a class="nav-link" href="#contact-us">Contacts Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -118,6 +118,7 @@
             <br><br>
             <!--End About Us page-->
         </section>
+        <!-- recipe section -->
         <section id="recipe" class="container">
             <!--Recipes-->
             <h2>Recipes</h2>
@@ -138,7 +139,7 @@
                 </div>
             </div>
             <div class="container-fluid breakfast" id="recipes">
-                <div class="col-sm-12" class="menu-contents">
+                <div class="col-sm-12" id="menu-contents">
                     <h3 class="text-center">Coastal Breakfast</h3>
                     <div class="row row-top">
                         <div class="col-sm-3" id="food1">
@@ -150,29 +151,29 @@
                             </div>
                         </div>
 
-                        <div class="col-sm-3" id="viazikarai">
+                        <div class="col-sm-3">
                             <div class="card mb-2">
-                                <img class="card-img-top" src="images/viazikarai.jpg" alt="Card image cap">
+                                <img class="card-img-top" src="images/chicken.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title text-center">Viazi Karai</h5>
+                                    <h5 class="card-title text-center">Chicken Tikka</h5>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-sm-3" id="mkatewasinia">
+                        <div class="col-sm-3">
                             <div class="card mb-2">
-                                <img class="card-img-top" src="images/mkatewasinia.jpg" alt="Card image cap">
+                                <img class="card-img-top" src="images/chicken.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title text-center">mkate Wa Sinia</h5>
+                                    <h5 class="card-title text-center">Chicken Tikka</h5>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-sm-3" id="vitumbua">
+                        <div class="col-sm-3">
                             <div class="card mb-2">
-                                <img class="card-img-top" src="images/Vitumbua vya mchele.png" alt="Card image cap">
+                                <img class="card-img-top" src="images/chicken.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title text-center">Vitumbua</h5>
+                                    <h5 class="card-title text-center">Chicken Tikka</h5>
                                 </div>
                             </div>
                         </div>
@@ -218,7 +219,7 @@
                 </div>
             </div>
             <div class="container-fluid lunch" id="recipes">
-                <div class="col-sm-12" class="menu-contents">
+                <div class="col-sm-12" id="menu-contents">
                     <h3 class="text-center">Coastal Dishe lunch</h3>
                     <div class="row row-top">
                         <div class="col-sm-3">
@@ -298,7 +299,7 @@
                 </div>
             </div>
             <div class="container-fluid supper" id="recipes">
-                <div class="col-sm-12" class="menu-contents">
+                <div class="col-sm-12" id="menu-contents">
                     <h3 class="text-center">Coastal Dishes supper</h3>
                     <div class="row row-top">
                         <div class="col-sm-3">
@@ -457,15 +458,15 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid recipe-overlay" id="mahamri">
-                <img src="images/exit.png" alt="exit" class="exit">
+            <div class="container-fluid recipe-overlay">
+                <img src="images/exit.png" alt="exit" id="exit">
                 <div class="container">
                     <div class="row" class="individual-recipe text-center">
-                        <h3>Mahamri Recipe</h3>
+                        <h3 class="d-block mx-auto mahamri-txt">Mahamri Recipe</h3>
                     </div>
                     <div class="row">
                         <div class="col-sm-4 ">
-                            <h3 class="ingredients">Ingredients</h3>
+                            <h2 class="ingredients">Ingredients</h2>
                             <p>3 cups plain flour</p>
                             <p>1 cup coconut milk powder</p>
                             <p>¾ cup warm milk</p>
@@ -476,197 +477,28 @@
                             <p>Oil for deep frying</p>
                         </div>
                         <div class="col-sm-8">
-                            <h3>Steps</h3>
-                            <p>In a mixer add everything except water</p>
-                            <p>Mix for a few minutes then add the water.</p>
-                            <p>Knead until the dough is nice and soft like pizza dough.</p>
-                            <p>Cut into 7 or 8 pieces and shape into balls.</p>
-                            <p>Cover and let rise.</p>
-                            <p>Roll each ball and cut into 4 quarters.</p>
-                            <p>In a karai or pot add the oil for frying and place on medium heat.</p>
-                            <p>When the oil is hot add the quarter and start frying one side and flip to the other side,
-                                remove from heat when its golden brown.</p>
-                            <p>Enjoy with tea.</p>
+                            <h2>Steps</h2>
                         </div>
                     </div>
-                </div>
-                <div class="extras col-sm-12 d-block  mx-auto text-center">
-                    <div class="row icons">
-                        <div class="col-sm-2"></div>
-                        <a href="" class="icon"><i class="far fa-thumbs-down col-sm-2 icon text-danger"></i></a>
-                        <a href="" class="icon"><i class="far fa-thumbs-up col-sm-2 icon"></i></a>
-                        <a href="" class="icon"><i class="fas fa-stopwatch col-sm-2 icon"></i></a>
-                        <a href="" class="icon"><i class="fas fa-share-alt col-sm-2 icon"></i></a>
-                        <div class="col-sm-2"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid recipe-overlay" id="viazikarai-recipe">
-                <img src="images/exit.png" alt="exit" class="exit">
-                <div class="container">
-                    <div class="row" class="individual-recipe text-center">
-                        <h3>Viazi -Karai</h3>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-4 ">
-                            <h3 class="ingredients">Ingredients</h3>
-                            <ol>
-                                <li>2 tins of Potatoes (boiled and peeled)</li>
-                                <li>Oil for frying</li>
-                                <li>1 and 1/2 cup Gram flour</li>
-                                <li>2 cups white flour</li>
-                                <li>Salt</li>
-                                <li>Chilli powder</li>
-                                <li>Lemon juice</li>
-                            </ol>
-                        </div>
-                        <div class="col-sm-8">
-                            <h3>Steps</h3>
-                            <p>Mix your salt. chilli powder and lemon juice to make a thick paste.</p>
-                            <p>Cut your boiled and peeled potatoes into half, spread the chilli paste and join the
-                                halves together and then cut them into halves or if the potatoes are big into
-                                quarters.</p>
-                            <p>Next mix the gram flour and white flour with water to make a thick batter (not too thick
-                                and not too thin).Add some salt in the batter to taste.</p>
-                            <p>On a medium high stove, place your frying vessel and add oil.</p>
-                            <p>Once oil is hot, place your potatoes in the batter and start frying.</p>
-                            <p>Pick up the potatoes from the batter and dip them into the hot oil.</p>
-                            <p>Do not over fill the vessel.</p>
-                            <p>Turn them to cook the other side.</p>
-                            <p>When both sides are cooked, remove from heat and drain them.</p>
-                            <p>Serve with chutney.</p>
-                            <p>Enjoy!!!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="extras col-sm-12 d-block  mx-auto text-center">
-                    <div class="row icons">
-                        <div class="col-sm-2"></div>
-                        <a href="" class="icon"><i class="far fa-thumbs-down col-sm-2 icon"></i></a>
-                        <a href="" class="icon"><i class="far fa-thumbs-up col-sm-2 icon"></i></a>
-                        <a href="" class="icon"><i class="fas fa-stopwatch col-sm-2 icon"></i></a>
-                        <a href="" class="icon"><i class="fas fa-share-alt col-sm-2 icon"></i></a>
-                        <div class="col-sm-2"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid recipe-overlay" id="mkatewasinia-recipe">
-                <img src="images/exit.png" alt="exit" class="exit">
-                <div class="container">
-                    <div class="row" class="individual-recipe text-center">
-                        <h3>Mkate Wa Sinia</h3>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-4 ">
-                            <h3 class="ingredients">Ingredients</h3>
-                            <p>1 mug rice..soak the rice for two days cleaning and changing the water atleast once a
-                                day.(about 2 cups rice)</p>
-                            <p> 1 tbsp yeast</p>
-                            <p>Cardamom</p>
-                            <p>1 and a third mug water..Same mug as rice</p>
-                            <p> 1 and a half cups coconut powder</p>
-                            <p>1 cup sugar.. you can add more or less to suit your taste</p>
-                        </div>
-                        <div class="col-sm-8">
-                            <h3>Steps</h3>
-                            <ol>
-                                <li>Drain the rice and place the rice in a blend along with all the remaining
-                                    ingredients.
-                                </li>
-                                <li>Blend well into a smooth batter.</li>
-                                <li>Cover and let the mixture rise.</li>
-                                <li>Once risen, mix the mixture well with a ladle.</li>
-                                <li>Now take your oven bake pan or pot, add about a tablespoon of ghee and place the pot
-                                    on
-                                    low to medium heat stove.
-                                </li>
-                                <li>Once the ghee gets hot pour the mixture and cover.</li>
-                                <li>Let the mixture cook on top of a medium low heat stove for about 15 minutes or until
-                                    you
-                                    see the mixture is coming together and cooking well.
-                                </li>
-                                <li>Make sure the heat is not at high as the mkate will burn.</li>
-                                <li>Next place the mkate(uncovered) in the oven to finish cooking the mkate.</li>
-                                <li>If you see the mkate is still liquidy and not fully cooked on the stove then give it
-                                    some more baking time in the oven and the turn the oven to broil to give the top of
-                                    mkate a nice golden colour, but if the stove top cooking was enough for the mkate
-                                    then
-                                    the oven really is just for broiling the top and giving it a nice golden colour.
-                                </li>
-                                <li>Once the mkate is ready, remove from the oven and cover it until it cools down.</li>
-                                <li>Once cooled remove from the pan/pot and cut into pieces.</li>
-                                <li>Serve with tea.</li>
-                            </ol>
-                            <p>Enjoy!!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="extras col-sm-12 d-block  mx-auto text-center">
-                    <div class="row icons">
-                        <div class="col-sm-2"></div>
-                        <a href="" class="icon"><i class="far fa-thumbs-down col-sm-2 icon text-danger"></i></a>
-                        <a href="" class="icon"><i class="far fa-thumbs-up col-sm-2 icon"></i></a>
-                        <a href="" class="icon"><i class="fas fa-stopwatch col-sm-2 icon"></i></a>
-                        <a href="" class="icon"><i class="fas fa-share-alt col-sm-2 icon"></i></a>
-                        <div class="col-sm-2"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid recipe-overlay" id="vitumbua-recipe">
-                <img src="images/exit.png" alt="exit" class="exit">
-                <div class="container">
-                    <div class="row" class="individual-recipe text-center">
-                        <h3>Vitumbua</h3>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-4 ">
-                            <h3 class="ingredients">Ingredients</h3>
-                            <p>2 tins of Potatoes (boiled and peeled)</p>
-                            <p>Oil for frying</p>
-                            <p>1 and 1/2 cup Gram flour</p>
-                            <p>2 cups white flour</p>
-                            <p>Salt</p>
-                            <p>Chilli powder</p>
-                            <p>Lemon juice</p>
-                        </div>
-                        <div class="col-sm-8">
-                            <h3>Steps</h3>
-                            <ol>
-                                <li> Mix your salt. chilli powder and lemon juice to make a thick paste.</li>
-                                <li> Cut your boiled and peeled potatoes into half, spread the chilli paste and join the
-                                    halves together and then cut them into halves or if the potatoes are big into
-                                    quarters.
-                                </li>
-                                <li> Next mix the gram flour and white flour with water to make a thick batter (not too
-                                    thick and not too thin).Add some salt in the batter to taste.
-                                </li>
-                                <li> On a medium high stove, place your frying vessel and add oil.</li>
-                                <li> Once oil is hot, place your potatoes in the batter and start frying.</li>
-                                <li> Pick up the potatoes from the batter and dip them into the hot oil.</li>
-                                <li> Do not over fill the vessel.</li>
-                                <li> Turn them to cook the other side.</li>
-                                <li> When both sides are cooked, remove from heat and drain them.</li>
-                                <li> Serve with chutney.</li>
-                                <p> Enjoy!!!</p>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-                <div class="extras col-sm-12 d-block  mx-auto text-center">
-                    <div class="row icons">
-                        <div class="col-sm-2"></div>
-                        <a href="" class="icon"><i class="far fa-thumbs-down col-sm-2 icon text-danger"></i></a>
-                        <a href="" class="icon"><i class="far fa-thumbs-up col-sm-2 icon"></i></a>
-                        <a href="" class="icon"><i class="fas fa-stopwatch col-sm-2 icon"></i></a>
-                        <a href="" class="icon"><i class="fas fa-share-alt col-sm-2 icon"></i></a>
-                        <div class="col-sm-2"></div>
-                    </div>
-                </div>
 
+                </div>
+                <div class="extras col-sm-12 d-block  mx-auto text-center">
+                    <div class="row icons">
+                        <div class="col-sm-2"></div>
+                        <a href="" class="icon"><i class="far fa-thumbs-down col-sm-2 icon text-danger"></i></a>
+                        <a href="" class="icon"><i class="far fa-thumbs-up col-sm-2 icon"></i></a>
+                        <a href="" class="icon"><i class="fas fa-stopwatch col-sm-2 icon"></i></a>
+                        <a href="" class="icon"><i class="fas fa-share-alt col-sm-2 icon"></i></a>
+                        <div class="col-sm-2"></div>
+                    </div>
+                </div>
             </div>
         </section>
-    </div>
 
+        <section>
+            <!--Contacts-->
+        </section>
+    </div>
 </div>
 
 </body>
@@ -674,11 +506,8 @@
 <script src="js/scripts.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 <script src="js/jquery.counterup.js"></script>
-<script src="js/jquery.js"></script>
 <script src="js/fullclip.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/mdb.min.js"></script>
 <script src="js/popper.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-<script src="js/jquery.counterup.min.js"></script>
 </html>
