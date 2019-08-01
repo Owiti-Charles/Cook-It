@@ -182,7 +182,6 @@ body {
     padding-top: 2%;
     margin-top: -10%;
     display: none;
-
 }
 .exit{
     /* margin-left: 95%; */
@@ -269,7 +268,6 @@ i{
     font-size: 30px;
     padding: 20px;
 }
-
 section#contact{
     background-size: cover;
 }
