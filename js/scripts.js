@@ -46,22 +46,22 @@ $(document).ready(function(){
         $("#mahamri").slideUp(1000);
     });
     $("#viazikarai").click(function(){
-      $("#viazikarai-recipe").slideDown(1000);
+        $("#viazikarai-recipe").slideDown(1000);
     });
     $(".exit").click(function(){
-      $("#viazikarai-recipe").slideUp(1000);
+        $("#viazikarai-recipe").slideUp(1000);
     });
     $("#mkatewasinia").click(function(){
-      $("#mkatewasinia-recipe").slideDown(1000);
+        $("#mkatewasinia-recipe").slideDown(1000);
     });
     $(".exit").click(function(){
-      $("#mkatewasinia-recipe").slideUp(1000);
+        $("#mkatewasinia-recipe").slideUp(1000);
     });
     $("#vitumbua").click(function(){
-      $("#vitumbua-recipe").slideDown(1000);
+        $("#vitumbua-recipe").slideDown(1000);
     });
     $(".exit").click(function(){
-      $("#vitumbua-recipe").slideUp(1000);
+        $("#vitumbua-recipe").slideUp(1000);
     });
 });
 function myFunction() {
@@ -78,3 +78,5 @@ function myFunction() {
         moreText.style.display = "inline";
     }
 }
+
+
