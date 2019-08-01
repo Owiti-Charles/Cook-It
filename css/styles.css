@@ -1,3 +1,4 @@
+
 html,
 body,
 header,
@@ -209,7 +210,7 @@ body {
     display: none;
 }
 .about-left {
-    background-repeat: no-repeat 0px 0px;
+    background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -225,7 +226,7 @@ body {
     z-index: 1;
 }
 .about-right {
-    margin-top: -45%;
+    margin-top: -35%;
     margin-right:4%;
     margin-left: 200px;
     position: relative;
@@ -251,4 +252,16 @@ img {
 }
 .individual-recipe{
     padding-top: 6%;
+}
+.mahamri-txt{
+    padding-left: -15%;
+    margin: 0;
+}
+.icons{
+    margin: 5% 0 0 30%;
+    color: orangered;
+}
+icon{
+    color: red;
+    background-color: yellow;
 }
