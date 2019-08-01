@@ -89,9 +89,20 @@ body {
 .push-down {
     padding-top: 25%;
 }
+.card{
+  border: none;
+}
 
 .site-name {
-    margin-left: 10%;
+  margin-left: 10%;
+}
+#site-name{
+  background-color: orange;
+}
+.slogan{
+  margin-left: 10%;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 25px;
 }
 
 #site-name {
@@ -225,18 +236,15 @@ body {
 }
 
 img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
-
-.subheading-w3-agile {
-    padding: 50px 0 0 0;
+.subheading-w3-agile{
+padding: 60px 0 0 0;
+} 
+.para-w3-agileits{
+padding: 0 0 100px 0 ;
 }
-
-.para-w3-agileits {
-    padding: 0 0 100px 0;
-}
-
 .btn {
     border-radius: 10px;
 }
