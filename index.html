@@ -10,6 +10,8 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <link rel="stylesheet" href="css/mdb.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/wickedcss.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Cook It</title>
 </head>
@@ -30,7 +32,7 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item ">
-                                    <a class="nav-link" href="#">About Us</a>
+                                    <a class="nav-link" href="#about">About Us</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#recipe">Recipes</a>
@@ -44,8 +46,8 @@
                 </nav>
             </div>
             <div class="push-down"></div>
-            <h1 class="text-white site-name"><span id="site-name">Cook</span> it</h1>
-            <p class="text-white slogan">Our savours to yours.</p>
+            <h1 class="text-white site-name  pulse"><span id="site-name">Cook</span> it</h1>
+            <p class="text-white slogan  floater">Our savours to yours.</p>
         </div>
 
         <section>
@@ -54,31 +56,13 @@
              <div class="row">
                <div class="pt-5 col-md-4">
                  <div class="para-w3-agileits" id="readmore">
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer<span id="dots">...</span><span
-                                 id="more">citation ullamco laboris nisi ut aliquip ex
-                   ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                   fugiat
-                   nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                   mollit
-                   anim id est laborum.<br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                   tempor incididunt ut labore et
-                   dolore magna aliqua. Vel pretium lectus quam id leo in vitae turpis. Sit amet nisl suscipit adipiscing
-                   bibendum. Metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Praesent tristique magna
-                   sit
-                   amet purus gravida quis blandit. Diam vel quam elementum pulvinar etiam. In nibh mauris cursus mattis
-                   molestie a iaculis at erat.<br><br> Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.
-                   Accumsan tortor
-                   posuere ac ut consequat semper viverra. Nunc scelerisque viverra mauris in aliquam sem fringilla.
-                   Neque
-                   egestas congue quisque egestas. Massa ultricies mi quis hendrerit dolor magna eget. A arcu cursus
-                   vitae
-                   congue mauris. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Aenean euismod
-                   elementum nisi quis eleifend quam adipiscing vitae proin. At quis risus sed vulputate odio ut enim
-                   blandit
-                   volutpat.</span></p>
+                     <p>Kenya is a diverse country with over 40 tribes. Each one of these tribes have their own dishes and their own way of cooking said dishes.<span id="dots">...</span><span
+                                 id="more"> I’m sure most of us are stuck in the all-too-common loop of cooking the same three or four meals we are used to everyday of the week.
+                                 This is partly because we grew up among the same group of people making the same meals everyday.
+                                 For a most of us, we would love to try out different foods from different cultures but figuring out how to cook a dish from scratch is a very daunting endeavour..<br><br> What ingredients do I need to cook a specific dish? Do I deep-fry it? Do I combine the solids and liquids separately then pour the liquid mixture into the solids? These are some of the questions that plague our minds before we retreat into the comfort zone of cooking familiar foods. With cook-It, we eliminate some of these problems. Within seconds, you can find recipes from different people(amateur or trained) on how to make all kinds of Kenyan foods. You can try out a new recipe every single week and learn how to cook a variety of foods.<br><br> Our goal with this site is to teach both beginners and (hopefully) professional chefs how to prepare local Kenyan dishes that they did not know how to cook before.
+                                 If after trying out our recipes, you feel you have a different way of cooking a particular dish, you have the option of adding your own recipe to our platform and sharing your culinary prowess and creativity with the rest of us.</span></p>
 
-                     <button onclick="myFunction()" id="myBtn" class="btn btn-success">READ MORE...</button>
+                     <button onclick="myFunction()" id="myBtn" class="btn btn-warning floater">READ MORE...</button>
                      <br><br>
                  </div>
                </div>
@@ -88,9 +72,8 @@
                          <img src="images/slider1.jpg" alt="About us image" class="pt-5"id="sliderimg">
                      </div>
                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 about-right">
-                         <h3 class="subheading-w3-agile">The perfect place to enjoy life and food.</h3>
-                         <p class="para-w3-agileits">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis
-                             tristique est, et egestas odio, sed interdum risus.</p>
+                         <h3 class="subheading-w3-agile"><strong>The perfect place to make good food.</strong></h3>
+                         <p class="para-w3-agileits">Get a recipe, add a recipe, rate...<br>Have fun!!</p>
                          <div class="con text-center pr-5 row">
                              <div class="stat1 col-md-6">
                                   <span class="counter text-center">14,195</span><br><br>
@@ -487,7 +470,56 @@
         </section>
 
         <section>
-            <!--Contacts-->
+          <div class="push-downcontact"></div>
+          <!--Contacts-->
+          <section class="mail" id="contact">
+          <div class="container pt-3">
+            <div class="middle-heading1 text-center mb-5">
+              <h3 id="h3contact">contact us</h3>
+            </div>
+            <div class="row form">
+              <div class="col-lg-8  cont">
+                <form action="#" method="post">
+                  <div class="row">
+                    <div class="col-md-6 wthree_contact_left_grid pr-md-0">
+                      <div class="form-group">
+                        <input type="text" name="name" class="mb-4 form-control" placeholder="Name" required="">
+                      </div>
+                      <div class="form-group">
+                        <input type="email" name="email" class="mb-4 form-control" placeholder="Email" required="">
+                      </div>
+                    </div>
+                    <div class="col-md-6 wthree_contact_left_grid">
+                      <div class="form-group">
+                        <input type="text" name="phone number" class="mb-4 form-control" placeholder="Phone Number"
+                          required="">
+                      </div>
+                      <div class="form-group">
+                        <input type="text" name="subject" class="mb-4 form-control" placeholder="Subject" required="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <textarea name="message" placeholder="Message" class="form-control" required=""></textarea>
+                  </div>
+                  <div class="submit-buttons">
+                    <input type="submit" value="Submit">
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-4 contact-info">
+                <div class="contact-info1">
+                  <h4 class="mb-4">Address Information</h4>
+                  <p><span class="fa mr-3 fa-map-marker"></span><span>Ngong Lane Plaza</span></p>
+                  <p class="phone "><span class="fa mr-3 fa-phone"></span>Phone : +254 2220564 </p>
+                  <p class="phone "><span class="fa mr-3 fa-phone"></span>Call us at +254 6889344 </p>
+                  <p><span class="fa mr-3 fa-envelope"></span>Email : <a
+                      href="mailto:info@cookitmail.com">info@cookitmail.com</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         </section>
     </div>
 </div>
