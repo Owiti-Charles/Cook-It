@@ -179,30 +179,37 @@ body {
 .community-text {
     margin: 20px 0 20px 0;
 }
-
-.recipe-overlay {
-    background-color: rgba(20, 20, 20, 0.96);
-    width: 100%;
-    position: absolute;
-    z-index: 2;
-    margin-top: -10%;
-    display: none;
+.ingredients{
+  text-align: left;
 }
-
-#exit {
-    margin-left: 92%;
-    border-radius: 50%;
-    height: 30px;
-    display: none;
+.recipe-overlay{
+  background-color: rgba(20, 20, 20, 0.96);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  left:0px;
+  padding-left: 10%;
+  padding-top: 2%;
+  margin-top: -10%;
+  display: none;
+}
+#exit{
+  /* margin-left: 95%; */
+  float: right;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
 }
 
 .about {
-    font-family: Verdana, sans-serif;
-    font-size: 22px;
-    color: #fff;
-    margin: 2%;
-    background-color: #78909c;
-    text-align: center;
+  font-family: Verdana, sans-serif;
+  font-size: 22px;
+  color: #fff;
+  padding-bottom: 3%;
+  margin: 0 2% 0 0;
+  background-color: #78909c;
+  text-align: center;
 }
 
 .about p {
@@ -248,3 +255,8 @@ padding: 0 0 100px 0 ;
 .btn {
     border-radius: 10px;
 }
+.individual-recipe{
+  padding-top: 6%;
+}
+
+
