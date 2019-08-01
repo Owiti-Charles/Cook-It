@@ -39,6 +39,22 @@ header,
     .navbar:not(.top-nav-collapse) {
         background: #78909c !important;
     }
+    .about-main {
+
+      display: flex;
+      flex-direction: column !important;
+
+    }
+    #sliderimg{
+      height:200px;
+      width:200px;
+    }
+}
+@media (max-width: 475px){
+  #sliderimg{
+    height:200px;
+    width:200px;
+  }
 }
 #logo{
     padding-right: 65%;
@@ -225,7 +241,7 @@ body {
     z-index: 1;
 }
 .about-right {
-    margin-top: -39%;
+    margin-top: -52%;
     margin-right:4%;
     margin-left: 200px;
     position: relative;
@@ -234,7 +250,8 @@ body {
     z-index: 4;
 }
 .about-title {
-    padding-top: 6%;
+    padding-bottom: 6%;
+    color: black
 }
 img {
     width: 100%;
@@ -259,4 +276,8 @@ img {
 }
 .para{
   padding-right: 30%;
+}
+#sliderimg{
+  height:360px;
+  width:390px;
 }
