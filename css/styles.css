@@ -191,7 +191,6 @@ body {
     width: 30px;
 }
 .col-sm-8 h2{
-
     padding:10px;
     font-size: 18px;
 }
@@ -261,16 +260,15 @@ img {
     display: none;
 }
 .icons{
-    margin: 5% 0 0 30%;
+    margin: 5% 0 7% 21%;
     color: orangered;
 }
-icon{
+i{
     color: red;
-    background-color: yellow;
+    font-size: 30px;
+    padding: 20px;
 }
-
 section#contact{
-    background: url(../images/carousel/download.jpeg) no-repeat center;
     background-size: cover;
 }
 .form {
@@ -336,9 +334,9 @@ h4.heading-con-w3ls {
 }
 h3{
     font-family: 'Architects Daughter', cursive;
+    /*font-size: 80px;*/
 }
 #conta{
     margin-top: 45%;
     background-color: #0b2a41;
 }
-
