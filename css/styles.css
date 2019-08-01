@@ -1,4 +1,3 @@
-
 html,
 body,
 header,
@@ -174,7 +173,7 @@ body {
 }
 .recipe-overlay{
     background-color: rgba(20, 20, 20, 0.96);
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
     position: absolute;
     z-index: 2;
@@ -183,13 +182,18 @@ body {
     padding-top: 2%;
     margin-top: -10%;
     display: none;
+
 }
-#exit{
+.exit{
     /* margin-left: 95%; */
     float: right;
     border-radius: 50%;
     height: 30px;
     width: 30px;
+}
+.col-sm-8 h2{
+    padding:10px;
+    font-size: 18px;
 }
 .about {
     font-family: Verdana, sans-serif;
@@ -210,7 +214,7 @@ body {
     display: none;
 }
 .about-left {
-    background-repeat: no-repeat;
+    background-repeat: no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -226,7 +230,7 @@ body {
     z-index: 1;
 }
 .about-right {
-    margin-top: -35%;
+    margin-top: -45%;
     margin-right:4%;
     margin-left: 200px;
     position: relative;
@@ -253,9 +257,8 @@ img {
 .individual-recipe{
     padding-top: 6%;
 }
-.mahamri-txt{
-    padding-left: -15%;
-    margin: 0;
+#viazikarai-recipe{
+    display: none;
 }
 .icons{
     margin: 5% 0 0 30%;
@@ -264,4 +267,78 @@ img {
 icon{
     color: red;
     background-color: yellow;
+}
+
+section#contact{
+    background: url(../images/carousel/download.jpeg) no-repeat center;
+    background-size: cover;
+}
+.form {
+    background: rgba(255, 255, 255, 0.21);
+    padding: 2em 1em;
+    border-radius: 5px;
+    border-radius: 4px;
+}
+.contact-info1 {
+    padding: 1em;
+}
+.cont input[type="text"], .cont input[type="email"], .cont textarea {
+    outline: none;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    width: 100%;
+    border: none;
+    background-color: rgba(255, 255, 255,0.2);
+}
+.cont textarea {
+    min-height: 200px;
+    width: 100%;
+    resize: none;
+}
+.cont input {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s all;
+    background: #445c6e;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    border-radius: 4px;
+}
+h4.heading-con-w3ls {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.contact-info p {
+    color: #dcdbdb;
+    font-size: 15px;
+    letter-spacing: .5px;
+}
+.contact-info p span.fa {
+    color: #fff;
+    font-size: 18px;
+}
+.contact-info p a {
+    font-size: 17px;
+    color: #dcdbdb;
+}
+.contact-info h4 {
+    font-size: 27px;
+    color: #fff;
+    text-transform: capitalize;
+}
+h3{
+    font-family: 'Architects Daughter', cursive;
+    /*font-size: 80px;*/
+}
+#conta{
+    margin-top: 45%;
+    background-color: #0b2a41;
 }
