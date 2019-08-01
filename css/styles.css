@@ -182,6 +182,9 @@ body {
 .lunch{
   margin-top: 0px;
 }
+.ingredients{
+  text-align: left;
+}
 .recipe-overlay{
   background-color: rgba(20, 20, 20, 0.96);
   height: 100%;
@@ -189,6 +192,8 @@ body {
   position: absolute;
   z-index: 2;
   left:0px;
+  padding-left: 10%;
+  padding-top: 2%;
   margin-top: -10%;
   display: none;
 }
@@ -260,5 +265,7 @@ padding: 0 0 100px 0 ;
 .btn{
   border-radius: 10px;
 }
-
+.individual-recipe{
+  padding-top: 6%;
+}
 
