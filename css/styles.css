@@ -20,7 +20,7 @@ header,
         color: red;
     }
     .about-right {
-        margin-top: -45%;
+        margin-top: -35%;
         margin-left: -300px;
         margin-left: 200px;
         position: relative;
@@ -107,7 +107,7 @@ body {
     height:50px;
     font-size: 24px;
     background-color: transparent;
-    color: red;
+    color:	#B22222;
 }
 .counters span{
     margin-left: 70%;
@@ -191,19 +191,19 @@ body {
     width: 30px;
 }
 .about {
-    font-family: Verdana, sans-serif;
+    font-family: Verdan, sans-serif;
     font-size: 22px;
-    color: #fff;
+    color: black;
     padding-bottom: 3%;
     margin: 0 2% 0 0;
-    background-color: #78909c;
+    background-color: white;
     text-align: center;
 }
 .about p {
     font-family: Verdana, sans-serif;
     font-size: 18px;
     font-weight: bold;
-    color: #fff;
+    color: black;
 }
 #more {
     display: none;
@@ -225,7 +225,7 @@ body {
     z-index: 1;
 }
 .about-right {
-    margin-top: -45%;
+    margin-top: -39%;
     margin-right:4%;
     margin-left: 200px;
     position: relative;
@@ -248,7 +248,15 @@ img {
 }
 .btn{
     border-radius: 10px;
+
 }
 .individual-recipe{
     padding-top: 6%;
+}
+#stext1{
+  padding-left: 45%;
+  color:black;
+}
+.para{
+  padding-right: 30%;
 }
