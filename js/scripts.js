@@ -17,6 +17,10 @@ $(".drinks").hide();
 $(".add-recipe").hide();
 $(".added-recipe1").hide();
 $(document).ready(function(){
+    var rname, rsteps;
+    rname = $('#rname').val();
+    rsteps = $('#rsteps').val();
+    
     $("#lunchit").click(function(event){
         $(".drinks").hide();
         $(".lunch").fadeTo('slow',1).slideDown('slow');
