@@ -182,7 +182,6 @@ body {
     padding-top: 2%;
     margin-top: -10%;
     display: none;
-
 }
 .exit{
     /* margin-left: 95%; */
@@ -192,6 +191,7 @@ body {
     width: 30px;
 }
 .col-sm-8 h2{
+
     padding:10px;
     font-size: 18px;
 }
@@ -341,3 +341,4 @@ h3{
     margin-top: 45%;
     background-color: #0b2a41;
 }
+
