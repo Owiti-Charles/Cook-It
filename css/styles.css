@@ -340,3 +340,26 @@ h3{
     margin-top: 45%;
     background-color: #0b2a41;
 }
+.btn-add1, .btn-add2, .btn-add3, .btn-add4{
+    /* position: relative;
+    left: 180%; */
+    float: right;
+    border-radius: 50px;
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+}
+.add-recipe{
+    margin: 10px;
+}
+.food-add{
+    margin: 10px 10px 10px -100px;
+
+}
+.go{
+    margin-top: 10px;
+}
+.add-recipe-txt{
+    margin-top: 30px;
+margin-left: -100px;
+}
