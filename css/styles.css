@@ -20,7 +20,7 @@ header,
         color: red;
     }
     .about-right {
-        margin-top: -45%;
+        margin-top: -35%;
         margin-left: -300px;
         margin-left: 200px;
         position: relative;
@@ -39,6 +39,22 @@ header,
     .navbar:not(.top-nav-collapse) {
         background: #78909c !important;
     }
+    .about-main {
+
+      display: flex;
+      flex-direction: column !important;
+
+    }
+    #sliderimg{
+      height:200px;
+      width:200px;
+    }
+}
+@media (max-width: 475px){
+  #sliderimg{
+    height:200px;
+    width:200px;
+  }
 }
 #logo{
     padding-right: 65%;
@@ -107,7 +123,7 @@ body {
     height:50px;
     font-size: 24px;
     background-color: transparent;
-    color: red;
+    color:	#B22222;
 }
 .counters span{
     margin-left: 70%;
@@ -195,19 +211,19 @@ body {
     font-size: 18px;
 }
 .about {
-    font-family: Verdana, sans-serif;
+    font-family: Verdan, sans-serif;
     font-size: 22px;
-    color: #fff;
+    color: black;
     padding-bottom: 3%;
     margin: 0 2% 0 0;
-    background-color: #78909c;
+    background-color: white;
     text-align: center;
 }
 .about p {
     font-family: Verdana, sans-serif;
     font-size: 18px;
     font-weight: bold;
-    color: #fff;
+    color: black;
 }
 #more {
     display: none;
@@ -229,7 +245,7 @@ body {
     z-index: 1;
 }
 .about-right {
-    margin-top: -45%;
+    margin-top: -52%;
     margin-right:4%;
     margin-left: 200px;
     position: relative;
@@ -238,7 +254,8 @@ body {
     z-index: 4;
 }
 .about-title {
-    padding-top: 6%;
+    padding-bottom: 6%;
+    color: black
 }
 img {
     width: 100%;
@@ -252,9 +269,22 @@ img {
 }
 .btn{
     border-radius: 10px;
+
 }
 .individual-recipe{
     padding-top: 6%;
+}
+
+#stext1{
+  padding-left: 45%;
+  color:black;
+}
+.para{
+  padding-right: 30%;
+}
+#sliderimg{
+  height:340px;
+  width:390px;
 }
 #viazikarai-recipe{
     display: none;
@@ -340,6 +370,7 @@ h3{
     margin-top: 45%;
     background-color: #0b2a41;
 }
+
 .btn-add1, .btn-add2, .btn-add3, .btn-add4{
     /* position: relative;
     left: 180%; */
@@ -363,3 +394,4 @@ h3{
     margin-top: 30px;
 margin-left: -100px;
 }
+
