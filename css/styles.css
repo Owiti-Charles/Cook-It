@@ -291,10 +291,13 @@ img {
 .push-downcontact{
     padding-top: 55%;
 }
+
+#viazikarai-recipe{
+    display: none;
+}
 section#contact{
-  background: url("../images/carousel/download.jpeg");
-  background-position:center;
-  background-size: cover;
+  background: url(../images/carousel/download.jpeg) no-repeat center;
+ background-size: cover;
 }
 .form {
  background: rgba(255, 255, 255, 0.21);
@@ -363,11 +366,4 @@ h4.heading-con-w3ls {
 #h3contact{
   font-family: 'Architects Daughter', cursive;
   font-size: 80px;
-}
-#viazikarai-recipe{
-    display: none;
-}
-#conta{
-    margin-top: 45%;
-    background-color: #0b2a41;
 }
