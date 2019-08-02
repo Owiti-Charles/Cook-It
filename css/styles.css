@@ -190,7 +190,7 @@ body {
 }
 .recipe-overlay{
     background-color: rgba(20, 20, 20, 0.96);
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
     position: absolute;
     z-index: 2;
@@ -200,12 +200,16 @@ body {
     margin-top: -10%;
     display: none;
 }
-#exit{
+.exit{
     /* margin-left: 95%; */
     float: right;
     border-radius: 50%;
     height: 30px;
     width: 30px;
+}
+.col-sm-8 h2{
+    padding:10px;
+    font-size: 18px;
 }
 .about {
     font-family: Verdan, sans-serif;
@@ -240,7 +244,7 @@ body {
 }
 #myBtn{
     z-index: 1;
-    background-color:#FFA500; 
+    background-color:#FFA500;
 }
 .about-right {
     margin-top: -52%;
@@ -272,6 +276,7 @@ img {
 .individual-recipe{
     padding-top: 6%;
 }
+
 #stext1{
   padding-left: 45%;
   color:black;
@@ -282,9 +287,6 @@ img {
 #sliderimg{
   height:340px;
   width:390px;
-}
-#trycontact{
-  color: black;
 }
 .push-downcontact{
     padding-top: 55%;
@@ -361,4 +363,11 @@ h4.heading-con-w3ls {
 #h3contact{
   font-family: 'Architects Daughter', cursive;
   font-size: 80px;
+}
+#viazikarai-recipe{
+    display: none;
+}
+#conta{
+    margin-top: 45%;
+    background-color: #0b2a41;
 }
