@@ -14,7 +14,13 @@ $(document).ready(function($) {
 $(".lunch").hide();
 $(".supper").hide();
 $(".drinks").hide();
+$(".add-recipe").hide();
+$(".added-recipe1").hide();
 $(document).ready(function(){
+    var rname, rsteps;
+    rname = $('#rname').val();
+    rsteps = $('#rsteps').val();
+    
     $("#lunchit").click(function(event){
         $(".drinks").hide();
         $(".lunch").fadeTo('slow',1).slideDown('slow');
@@ -63,6 +69,11 @@ $(document).ready(function(){
     $(".exit").click(function(){
         $("#vitumbua-recipe").slideUp(1000);
     });
+    $('.btn-add1').click(function(){
+        // $(".added-recipe1").slideDown(2000);
+        $('.added-recipe1').append('<h3 class="ingredients text-center"></h3>')
+        $(".add-recipe").show(1000);
+    })
 });
 function myFunction() {
     var dots = document.getElementById("dots");
