@@ -251,7 +251,7 @@ body {
     margin-right:4%;
     margin-left: 200px;
     position: relative;
-    border: 5px solid rgb(59, 232, 176);
+    border: 5px solid #FFA500;
     float: right;
     z-index: 4;
 }
