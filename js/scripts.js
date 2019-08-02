@@ -69,11 +69,21 @@ $(document).ready(function(){
     $(".exit").click(function(){
         $("#vitumbua-recipe").slideUp(1000);
     });
+<<<<<<< HEAD
     $('.btn-add1').click(function(){
         // $(".added-recipe1").slideDown(2000);
         $('.added-recipe1').append('<h3 class="ingredients text-center"></h3>')
         $(".add-recipe").show(1000);
     })
+=======
+    $("#biriani").click(function(){
+      $("#biriani-recipe").slideDown(1000);
+  });
+  $(".exit").click(function(){
+      $("#biriani-recipe").slideUp(1000);
+  });
+    
+>>>>>>> charles
 });
 function myFunction() {
     var dots = document.getElementById("dots");
