@@ -231,6 +231,7 @@ body {
     font-weight: bold;
     color: black;
 }
+
 #more {
     display: none;
 }
@@ -409,5 +410,79 @@ h3{
 .add-recipe-txt{
     margin-top: 30px;
 margin-left: -100px;
+}
+
+
+section#contact{
+  background: url(../images/carousel/download.jpeg) no-repeat center;
+ background-size: cover;    
+}
+.form {
+ background: rgba(255, 255, 255, 0.21);
+ padding: 2em 1em;
+ border-radius: 5px;
+ border-radius: 4px;
+ 
+}
+.contact-info1 {
+ padding: 1em;
+}
+.cont input[type="text"], .cont input[type="email"], .cont textarea {
+ outline: none;
+ border: 2px solid #fff;
+ padding: 10px 20px;
+ font-size: 17px;
+ letter-spacing: 1px;
+ width: 100%;
+ border: none;
+ background-color: rgba(255, 255, 255,0.2);
+}
+
+.cont textarea {
+ min-height: 200px;
+ width: 100%;
+ resize: none;
+}
+
+.cont input {
+ outline: none;
+ border: none;
+ cursor: pointer;
+ transition: 0.5s all;
+ background: #445c6e;
+ color: #fff;
+ font-size: 17px;
+ letter-spacing: 1px;
+ padding: 10px 30px;
+ display: inline-block;
+ border: 2px solid #fff;
+ border-radius: 4px;
+ border-radius: 4px;
+}
+h4.heading-con-w3ls {
+ font-size: 30px;
+ letter-spacing: 1px;
+}
+.contact-info p {
+ color: #dcdbdb;
+ font-size: 15px;
+ letter-spacing: .5px;
+}
+.contact-info p span.fa {
+ color: #fff;
+ font-size: 18px;
+}
+.contact-info p a {
+ font-size: 17px;
+ color: #dcdbdb;
+}
+.contact-info h4 {
+ font-size: 27px;
+ color: #fff;
+ text-transform: capitalize;
+}
+h3{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 80px;
 }
 
