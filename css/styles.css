@@ -3,6 +3,7 @@ body,
 header,
 .view {
     height: 100%;
+    scroll-behavior: smooth;
 }
 @media (max-width: 740px) {
     html,
@@ -215,9 +216,14 @@ body {
     font-size: 22px;
     color: black;
     padding-bottom: 3%;
+    padding-top: 2%;
     margin: 0 2% 0 0;
     background-color: white;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: inherit;
+    margin-bottom:0px;
 }
 .about p {
     font-family: Verdana, sans-serif;
@@ -242,7 +248,8 @@ body {
     z-index: 9;
 }
 #myBtn{
-    z-index: 1;
+    /* z-index: 1; */
+    border-radius: 6px;
 }
 .about-right {
     margin-top: -52%;
@@ -255,7 +262,8 @@ body {
 }
 .about-title {
     padding-bottom: 6%;
-    color: black
+    color: rgb(5, 5, 5);
+
 }
 img {
     width: 100%;
@@ -370,4 +378,13 @@ h3{
     margin-top: 45%;
     background-color: #0b2a41;
 }
+#about-us-section{
+  background-image: url("../images/aboutbackground.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
 

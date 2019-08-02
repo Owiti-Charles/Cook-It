@@ -63,6 +63,13 @@ $(document).ready(function(){
     $(".exit").click(function(){
         $("#vitumbua-recipe").slideUp(1000);
     });
+    $("#biriani").click(function(){
+      $("#biriani-recipe").slideDown(1000);
+  });
+  $(".exit").click(function(){
+      $("#biriani-recipe").slideUp(1000);
+  });
+    
 });
 function myFunction() {
     var dots = document.getElementById("dots");
