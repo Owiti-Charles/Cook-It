@@ -5,6 +5,7 @@ $(function () {
         wait: 5000
     });
 });
+
 $(document).ready(function($) {
     $('.counter').counterUp({
         delay: 10,
@@ -14,6 +15,9 @@ $(document).ready(function($) {
 $(".lunch").hide();
 $(".supper").hide();
 $(".drinks").hide();
+$(".add-recipe").hide();
+$(".added-recipe1").hide();
+$('.hidden').hide();
 $(document).ready(function(){
     $("#lunchit").click(function(event){
         $(".drinks").hide();
@@ -63,6 +67,21 @@ $(document).ready(function(){
     $(".exit").click(function(){
         $("#vitumbua-recipe").slideUp(1000);
     });
+    $("#biriani").click(function(){
+        $("#biriani-recipe").slideDown(1000);
+    });
+    $(".exit").click(function(){
+        $("#biriani-recipe").slideUp(1000);
+    });
+    $('.btn-add1').click(function(){
+        // $(".added-recipe1").slideDown(2000);
+        $('.added-recipe1').append('<h3 class="ingredients text-center"></h3>')
+        $(".add-recipe").show(1000);
+    })
+    $('.go').click(function(){
+        $(".add-recipe").slideUp('slow'); 
+        $('.hidden').show('slow');
+    })
 });
 function myFunction() {
     var dots = document.getElementById("dots");
@@ -78,5 +97,4 @@ function myFunction() {
         moreText.style.display = "inline";
     }
 }
-
 

@@ -1,3 +1,6 @@
+*{
+    scroll-behavior: smooth;
+}
 html,
 body,
 header,
@@ -20,7 +23,7 @@ header,
         color: red;
     }
     .about-right {
-        margin-top: -45%;
+        margin-top: -35%;
         margin-left: -300px;
         margin-left: 200px;
         position: relative;
@@ -30,7 +33,7 @@ header,
     }
 }
 .top-nav-collapse {
-    background-color: #78909c !important;
+    background-color: #FFA500 !important;
 }
 .navbar:not(.top-nav-collapse) {
     background: transparent !important;
@@ -39,13 +42,27 @@ header,
     .navbar:not(.top-nav-collapse) {
         background: #78909c !important;
     }
+    .about-main {
+
+      display: flex;
+      flex-direction: column !important;
+
+    }
+    #sliderimg{
+      height:200px;
+      width:200px;
+    }
+}
+@media (max-width: 475px){
+  #sliderimg{
+    height:200px;
+    width:200px;
+  }
 }
 #logo{
     padding-right: 65%;
 }
-*{
-    scroll-behavior: smooth;
-}
+
 body {
     margin: 0;
     padding: 0;
@@ -91,11 +108,12 @@ body {
 }
 #site-name{
     background-color: orange;
+    font-size: 65px;
 }
 .slogan{
     margin-left: 10%;
     font-family: 'Architects Daughter', cursive;
-    font-size: 25px;
+    font-size: 45px;
 }
 #aboutus{
     background-color: black;
@@ -107,7 +125,7 @@ body {
     height:50px;
     font-size: 24px;
     background-color: transparent;
-    color: red;
+    color:	#B22222;
 }
 .counters span{
     margin-left: 70%;
@@ -129,19 +147,19 @@ body {
      margin-right: 70px;
  }
 .tab-text1:hover{
-    background-color: #ff5858;
+    background-color: #FFA500;
     color: black;
 }
 .tab-text2:hover{
-    background-color: #ff5858;
+    background-color: #FFA500;
     color: black;
 }
 .tab-text3:hover{
-    background-color: #ff5858;
+    background-color: #FFA500;
     color: black;
 }
 .tab-text4:hover{
-    background-color: #ff5858;
+    background-color: #FFA500;
     color: black;
 }
 #recipe h2{
@@ -173,19 +191,17 @@ body {
 }
 .recipe-overlay{
     background-color: rgba(20, 20, 20, 0.96);
-    /* height: 100%; */
     width: 100%;
     position: absolute;
     z-index: 2;
     left:0px;
     padding-left: 10%;
     padding-top: 2%;
+    padding-bottom: 2%;     
     margin-top: -10%;
     display: none;
-
 }
 .exit{
-    /* margin-left: 95%; */
     float: right;
     border-radius: 50%;
     height: 30px;
@@ -196,19 +212,19 @@ body {
     font-size: 18px;
 }
 .about {
-    font-family: Verdana, sans-serif;
+    font-family: Verdan, sans-serif;
     font-size: 22px;
-    color: #fff;
+    color: black;
     padding-bottom: 3%;
     margin: 0 2% 0 0;
-    background-color: #78909c;
+    background-color: white;
     text-align: center;
 }
 .about p {
     font-family: Verdana, sans-serif;
     font-size: 18px;
     font-weight: bold;
-    color: #fff;
+    color: black;
 }
 #more {
     display: none;
@@ -228,18 +244,20 @@ body {
 }
 #myBtn{
     z-index: 1;
+    background-color:#FFA500;
 }
 .about-right {
-    margin-top: -45%;
-    margin-right:4%;
+    margin-top: -32%;
+    margin-right:10%;
     margin-left: 200px;
     position: relative;
-    border: 5px solid rgb(59, 232, 176);
+    border: 5px solid #FFA500;
     float: right;
     z-index: 4;
 }
 .about-title {
-    padding-top: 6%;
+    padding-bottom: 6%;
+    color: black
 }
 img {
     width: 100%;
@@ -253,92 +271,146 @@ img {
 }
 .btn{
     border-radius: 10px;
+
 }
 .individual-recipe{
     padding-top: 6%;
 }
+
+#stext1{
+  padding-left: 45%;
+  color:black;
+}
+.para{
+  padding-right: 30%;
+}
+#sliderimg{
+  height:340px;
+  width:390px;
+}
+.push-downcontact{
+    padding-top: 35%;
+}
+
 #viazikarai-recipe{
     display: none;
 }
-.icons{
-    margin: 5% 0 7% 21%;
-    color: orangered;
-}
-i{
-    color: red;
-    font-size: 30px;
-    padding: 20px;
-}
-
 section#contact{
-    background-size: cover;
+  background: url(../images/carousel/download.jpeg) no-repeat center;
+ background-size: cover;
 }
 .form {
-    background: rgba(255, 255, 255, 0.21);
-    padding: 2em 1em;
-    border-radius: 5px;
-    border-radius: 4px;
+ background: rgba(255, 255, 255, 0.21);
+ padding: 2em 1em;
+ border-radius: 5px;
+ border-radius: 4px;
+
 }
 .contact-info1 {
-    padding: 1em;
+ padding: 1em;
 }
 .cont input[type="text"], .cont input[type="email"], .cont textarea {
-    outline: none;
-    border: 2px solid #fff;
-    padding: 10px 20px;
-    font-size: 17px;
-    letter-spacing: 1px;
-    width: 100%;
-    border: none;
-    background-color: rgba(255, 255, 255,0.2);
+ outline: none;
+ border: 2px solid #fff;
+ padding: 10px 20px;
+ font-size: 17px;
+ letter-spacing: 1px;
+ width: 100%;
+ border: none;
+ background-color: rgba(255, 255, 255,0.2);
 }
+
 .cont textarea {
-    min-height: 200px;
-    width: 100%;
-    resize: none;
+ /* min-height: 100px; */
+ width: 100%;
+ resize: none;
 }
+input::placeholder{
+    color: #ffffff;
+}
+
 .cont input {
-    outline: none;
-    border: none;
-    cursor: pointer;
-    transition: 0.5s all;
-    background: #445c6e;
-    color: #fff;
-    font-size: 17px;
-    letter-spacing: 1px;
-    padding: 10px 30px;
-    display: inline-block;
-    border: 2px solid #fff;
-    border-radius: 4px;
-    border-radius: 4px;
+ outline: none;
+ border: none;
+ cursor: pointer;
+ transition: 0.5s all;
+ background: #445c6e;
+ color: #fff;
+ font-size: 17px;
+ letter-spacing: 1px;
+ padding: 10px 30px;
+ display: inline-block;
+ border: 2px solid #fff;
+ border-radius: 4px;
+ border-radius: 4px;
 }
 h4.heading-con-w3ls {
-    font-size: 30px;
-    letter-spacing: 1px;
+ font-size: 30px;
+ letter-spacing: 1px;
 }
 .contact-info p {
-    color: #dcdbdb;
-    font-size: 15px;
-    letter-spacing: .5px;
+ color: #dcdbdb;
+ font-size: 15px;
+ letter-spacing: .5px;
 }
 .contact-info p span.fa {
-    color: #fff;
-    font-size: 18px;
+ color: #fff;
+ font-size: 18px;
 }
 .contact-info p a {
-    font-size: 17px;
-    color: #dcdbdb;
+ font-size: 17px;
+ color: #dcdbdb;
 }
 .contact-info h4 {
-    font-size: 27px;
-    color: #fff;
-    text-transform: capitalize;
+ font-size: 27px;
+ color: #fff;
+ text-transform: capitalize;
 }
-h3{
-    font-family: 'Architects Daughter', cursive;
-    /*font-size: 80px;*/
+#h3contact{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 80px;
 }
-#conta{
-    margin-top: 45%;
-    background-color: #0b2a41;
+.btn-add1, .btn-add2, .btn-add3, .btn-add4{
+    position: relative;
+    left: 180%;
+    float: right;
+    border-radius: 50px;
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+}
+.add-recipe{
+    margin: 10px;
+}
+.food-add{
+    margin: 10px 10px 10px 0px;
+
+}
+.go{
+    margin-top: 10px;
+}
+.add-recipe-txt{
+    margin-top: 30px;
+    margin-left: -100px;
+}
+.far, .fas {
+    color: blue;
+    font-size: 30px;
+    position: relative;
+    left: 30%;
+}
+.ico1{
+color: red;
+}
+ .ico2{
+color: blue;
+}
+.ico3{
+color: #3be8b0;
+}
+.ico4{
+color: darkorange;
+}
+#aboutustop{
+    padding-top: 35px;
 }
